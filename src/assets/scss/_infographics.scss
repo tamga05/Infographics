@@ -21,21 +21,72 @@
 .flat {
 
     &__bathroom {
-        opacity: 0.6;
-        //display: none;
+        fill: transparent;
+        stroke: transparent;
+        stroke-width: transparent;
+
+        &:hover {
+            stroke: black;
+            stroke-width: 3px;
+            fill: #87CEEB;
+            opacity: 0.6;
+        }
     }
 
     &__living-room {
-        opacity: 0.6;
+        fill: transparent;
+        stroke: transparent;
+        stroke-width: transparent;
+
+        &:hover {
+            stroke: black;
+            stroke-width: 3px;
+            fill: #98FB98;
+            opacity: 0.6;
+        }
     }
 
     &__bedroom {
-        opacity: 0.6;
+        fill: transparent;
+        stroke: transparent;
+        stroke-width: transparent;
+
+        &:hover {
+            stroke: black;
+            stroke-width: 3px;
+            fill: #db81ab;
+            opacity: 0.6;
+        }
     }
 
     &__kitchen {
-        opacity: 0.6;
+        fill: transparent;
+        stroke: transparent;
+        stroke-width: transparent;
+
+        &:hover {
+            stroke: black;
+            stroke-width: 3px;
+            fill: #f1e645;
+            opacity: 0.6;
+        }
     }
 
+    &__hallway {
+        fill: transparent;
+        stroke: transparent;
+        stroke-width: transparent;
+
+        &:hover {
+            stroke: black;
+            stroke-width: 3px;
+            fill: #eb7d51;
+            opacity: 0.6;
+        }
+    }
 }
+
+
+
+
 
