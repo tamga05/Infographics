@@ -1,8 +1,41 @@
+.infographics {
+    width: 870px;
+    height: 810px;
+    //margin-top: 50px;
+    //margin-left: 500px;
+}
+
 .flat-plan {
     width: 870px;
     height: 810px;
-    margin-top: 50px;
-    margin-left: 500px;
     object-fit: cover;
     position: relative;
 }
+
+.svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flat {
+
+    &__bathroom {
+        opacity: 0.6;
+        //display: none;
+    }
+
+    &__living-room {
+        opacity: 0.6;
+    }
+
+    &__bedroom {
+        opacity: 0.6;
+    }
+
+    &__kitchen {
+        opacity: 0.6;
+    }
+
+}
+
