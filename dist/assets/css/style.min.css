@@ -320,12 +320,12 @@ template {
 [hidden] {
   display: none; }
 
-.infographics .flat__bathroom, .infographics .flat__living-room, .infographics .flat__bedroom, .infographics .flat__kitchen, .infographics .flat__hallway {
+.flat__bathroom, .flat__living-room, .flat__bedroom, .flat__kitchen, .flat__hallway {
   fill: transparent;
   stroke: transparent;
   stroke-width: transparent; }
 
-.infographics .flat__bathroom:hover, .infographics .flat__living-room:hover, .infographics .flat__bedroom:hover, .infographics .flat__kitchen:hover, .infographics .flat__hallway:hover {
+.flat__bathroom:hover, .flat__living-room:hover, .flat__bedroom:hover, .flat__kitchen:hover, .flat__hallway:hover {
   stroke: black;
   stroke-width: 3px;
   opacity: 0.6; }
@@ -333,24 +333,31 @@ template {
 .infographics {
   width: 870px;
   height: 810px; }
-  .infographics .flat-plan {
-    width: 870px;
-    height: 810px;
-    object-fit: cover;
-    position: relative; }
-  .infographics .svg {
-    position: absolute;
-    top: 0;
-    left: 0; }
-  .infographics .flat__bathroom:hover {
-    fill: #87CEEB; }
-  .infographics .flat__living-room:hover {
-    fill: #98FB98; }
-  .infographics .flat__bedroom:hover {
-    fill: #db81ab; }
-  .infographics .flat__kitchen:hover {
-    fill: #f1e645; }
-  .infographics .flat__hallway:hover {
-    fill: #eb7d51; }
+
+.flat-plan {
+  width: 870px;
+  height: 810px;
+  object-fit: cover;
+  position: relative; }
+
+.svg {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.flat__bathroom:hover {
+  fill: #87CEEB; }
+
+.flat__living-room:hover {
+  fill: #98FB98; }
+
+.flat__bedroom:hover {
+  fill: #db81ab; }
+
+.flat__kitchen:hover {
+  fill: #f1e645; }
+
+.flat__hallway:hover {
+  fill: #eb7d51; }
 
 /*# sourceMappingURL=style.min.css.map */
