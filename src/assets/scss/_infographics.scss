@@ -1,9 +1,7 @@
 .infographics {
     width: 870px;
     height: 810px;
-    //margin-top: 50px;
-    //margin-left: 500px;
-}
+
 
 .flat-plan {
     width: 870px;
@@ -21,72 +19,48 @@
 .flat {
 
     &__bathroom {
-        fill: transparent;
-        stroke: transparent;
-        stroke-width: transparent;
+        @extend %style;
 
         &:hover {
-            stroke: black;
-            stroke-width: 3px;
+            @extend %hoverstyle;
             fill: #87CEEB;
-            opacity: 0.6;
         }
     }
 
     &__living-room {
-        fill: transparent;
-        stroke: transparent;
-        stroke-width: transparent;
+        @extend %style;
 
         &:hover {
-            stroke: black;
-            stroke-width: 3px;
+            @extend %hoverstyle;
             fill: #98FB98;
-            opacity: 0.6;
         }
     }
 
     &__bedroom {
-        fill: transparent;
-        stroke: transparent;
-        stroke-width: transparent;
+        @extend %style;
 
         &:hover {
-            stroke: black;
-            stroke-width: 3px;
+            @extend %hoverstyle;
             fill: #db81ab;
-            opacity: 0.6;
         }
     }
 
     &__kitchen {
-        fill: transparent;
-        stroke: transparent;
-        stroke-width: transparent;
+        @extend %style;
 
         &:hover {
-            stroke: black;
-            stroke-width: 3px;
+            @extend %hoverstyle;
             fill: #f1e645;
-            opacity: 0.6;
         }
     }
 
     &__hallway {
-        fill: transparent;
-        stroke: transparent;
-        stroke-width: transparent;
+        @extend %style;
 
         &:hover {
-            stroke: black;
-            stroke-width: 3px;
+            @extend %hoverstyle;
             fill: #eb7d51;
-            opacity: 0.6;
         }
     }
 }
-
-
-
-
-
+}

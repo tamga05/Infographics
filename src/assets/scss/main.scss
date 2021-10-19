@@ -1,15 +1,18 @@
 @import "./base/normalize.scss";
 
 
-// html,
-// body {
-//     font-family: 'Montserrat', sans-serif;
-// }
+%style {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: transparent;
+}
 
-
-// body {
-//     min-width: 320px;
-// }
+%hoverstyle {
+    stroke: black;
+    stroke-width: 3px;
+    opacity: 0.6;
+}
 
 
 @import "./infographics";
+

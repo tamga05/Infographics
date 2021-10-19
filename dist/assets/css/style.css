@@ -356,12 +356,24 @@ template {
     display: none;
 }
 
+.infographics .flat__bathroom, .infographics .flat__living-room, .infographics .flat__bedroom, .infographics .flat__kitchen, .infographics .flat__hallway {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: transparent;
+}
+
+.infographics .flat__bathroom:hover, .infographics .flat__living-room:hover, .infographics .flat__bedroom:hover, .infographics .flat__kitchen:hover, .infographics .flat__hallway:hover {
+    stroke: black;
+    stroke-width: 3px;
+    opacity: 0.6;
+}
+
 .infographics {
     width: 870px;
     height: 810px;
 }
 
-.flat-plan {
+.infographics .flat-plan {
     width: 870px;
     height: 810px;
     -o-object-fit: cover;
@@ -369,73 +381,28 @@ template {
     position: relative;
 }
 
-.svg {
+.infographics .svg {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.flat__bathroom {
-    fill: transparent;
-    stroke: transparent;
-    stroke-width: transparent;
-}
-
-.flat__bathroom:hover {
-    stroke: black;
-    stroke-width: 3px;
+.infographics .flat__bathroom:hover {
     fill: #87CEEB;
-    opacity: 0.6;
 }
 
-.flat__living-room {
-    fill: transparent;
-    stroke: transparent;
-    stroke-width: transparent;
-}
-
-.flat__living-room:hover {
-    stroke: black;
-    stroke-width: 3px;
+.infographics .flat__living-room:hover {
     fill: #98FB98;
-    opacity: 0.6;
 }
 
-.flat__bedroom {
-    fill: transparent;
-    stroke: transparent;
-    stroke-width: transparent;
-}
-
-.flat__bedroom:hover {
-    stroke: black;
-    stroke-width: 3px;
+.infographics .flat__bedroom:hover {
     fill: #db81ab;
-    opacity: 0.6;
 }
 
-.flat__kitchen {
-    fill: transparent;
-    stroke: transparent;
-    stroke-width: transparent;
+.infographics .flat__kitchen:hover {
+    fill: #f1e645;
 }
 
-.flat__kitchen:hover {
-    stroke: black;
-    stroke-width: 3px;
-    fill: #F0E68C;
-    opacity: 0.6;
-}
-
-.flat__hallway {
-    fill: transparent;
-    stroke: transparent;
-    stroke-width: transparent;
-}
-
-.flat__hallway:hover {
-    stroke: black;
-    stroke-width: 3px;
-    fill: #FFA07A;
-    opacity: 0.6;
+.infographics .flat__hallway:hover {
+    fill: #eb7d51;
 }
